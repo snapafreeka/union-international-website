@@ -1,0 +1,43 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Build
+dist
+dist-ssr
+*.local
+
+# Vite
+.vite
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+
+# Logs
+logs
+*.log
+
+# OS
+Thumbs.db
+
+# Temp
+*.tmp
+*.temp
+
+# Figma Make specific
+__figma__entrypoint__.ts
+default_shadcn_theme.css
+pnpm-workspace.yaml
+guidelines/
+
+# Extra docs
+ATTRIBUTIONS.md
+PASTE_*.txt
